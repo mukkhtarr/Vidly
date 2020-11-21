@@ -167,8 +167,17 @@
     <Compile Include="Migrations\202011210703042_NullableBirthdate.designer.cs">
       <DependentUpon>202011210703042_NullableBirthdate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202011212121052_AddGenreTable.cs" />
+    <Compile Include="Migrations\202011212121052_AddGenreTable.designer.cs">
+      <DependentUpon>202011212121052_AddGenreTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202011212128221_PopulateGenres.cs" />
+    <Compile Include="Migrations\202011212128221_PopulateGenres.designer.cs">
+      <DependentUpon>202011212128221_PopulateGenres.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Models\Movie.cs" />
@@ -213,11 +222,11 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Movies\Random.cshtml" />
     <Content Include="Views\Shared\_NavBar.cshtml" />
     <Content Include="Views\Customers\Index.cshtml" />
     <Content Include="Views\Customers\Details.cshtml" />
     <Content Include="Views\Movies\Index.cshtml" />
+    <Content Include="Views\Movies\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -256,6 +265,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202011210703042_NullableBirthdate.resx">
       <DependentUpon>202011210703042_NullableBirthdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202011212121052_AddGenreTable.resx">
+      <DependentUpon>202011212121052_AddGenreTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202011212128221_PopulateGenres.resx">
+      <DependentUpon>202011212128221_PopulateGenres.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
