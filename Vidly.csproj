@@ -147,6 +147,26 @@
     <Compile Include="Migrations\202011200731542_PopulateMembershipTypes.designer.cs">
       <DependentUpon>202011200731542_PopulateMembershipTypes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202011200746564_ApplyAnnotationToCustomer.cs" />
+    <Compile Include="Migrations\202011200746564_ApplyAnnotationToCustomer.designer.cs">
+      <DependentUpon>202011200746564_ApplyAnnotationToCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202011210647103_AddNameToMembershipType.cs" />
+    <Compile Include="Migrations\202011210647103_AddNameToMembershipType.designer.cs">
+      <DependentUpon>202011210647103_AddNameToMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202011210649047_PopulateNameMembershipType.cs" />
+    <Compile Include="Migrations\202011210649047_PopulateNameMembershipType.designer.cs">
+      <DependentUpon>202011210649047_PopulateNameMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202011210657150_AddBirthdateToCustomer.cs" />
+    <Compile Include="Migrations\202011210657150_AddBirthdateToCustomer.designer.cs">
+      <DependentUpon>202011210657150_AddBirthdateToCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202011210703042_NullableBirthdate.cs" />
+    <Compile Include="Migrations\202011210703042_NullableBirthdate.designer.cs">
+      <DependentUpon>202011210703042_NullableBirthdate.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -156,6 +176,7 @@
     <Compile Include="ViewModels\RandomMovieViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".gitignore" />
     <Content Include="Content\bootstrap-lumen.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -220,6 +241,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202011200731542_PopulateMembershipTypes.resx">
       <DependentUpon>202011200731542_PopulateMembershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202011200746564_ApplyAnnotationToCustomer.resx">
+      <DependentUpon>202011200746564_ApplyAnnotationToCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202011210647103_AddNameToMembershipType.resx">
+      <DependentUpon>202011210647103_AddNameToMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202011210649047_PopulateNameMembershipType.resx">
+      <DependentUpon>202011210649047_PopulateNameMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202011210657150_AddBirthdateToCustomer.resx">
+      <DependentUpon>202011210657150_AddBirthdateToCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202011210703042_NullableBirthdate.resx">
+      <DependentUpon>202011210703042_NullableBirthdate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
