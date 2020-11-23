@@ -175,6 +175,18 @@
     <Compile Include="Migrations\202011212128221_PopulateGenres.designer.cs">
       <DependentUpon>202011212128221_PopulateGenres.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202011230026365_RequiredMovieName.cs" />
+    <Compile Include="Migrations\202011230026365_RequiredMovieName.designer.cs">
+      <DependentUpon>202011230026365_RequiredMovieName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202011230053151_TryDefaultDateTime.cs" />
+    <Compile Include="Migrations\202011230053151_TryDefaultDateTime.designer.cs">
+      <DependentUpon>202011230053151_TryDefaultDateTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202011230137591_NotSureIfAnyChange.cs" />
+    <Compile Include="Migrations\202011230137591_NotSureIfAnyChange.designer.cs">
+      <DependentUpon>202011230137591_NotSureIfAnyChange.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Genre.cs" />
@@ -276,6 +288,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202011212128221_PopulateGenres.resx">
       <DependentUpon>202011212128221_PopulateGenres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202011230026365_RequiredMovieName.resx">
+      <DependentUpon>202011230026365_RequiredMovieName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202011230053151_TryDefaultDateTime.resx">
+      <DependentUpon>202011230053151_TryDefaultDateTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202011230137591_NotSureIfAnyChange.resx">
+      <DependentUpon>202011230137591_NotSureIfAnyChange.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
